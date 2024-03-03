@@ -35,7 +35,8 @@ footer {
 
 img {
     aspect-ratio: 1/1;
-    height: 100%;
+    width: 100px;
+    height: 100px;
 }
 
 .content {
@@ -60,8 +61,7 @@ img {
     border: 3px solid rgb(63, 194, 238);
     border-radius: 5%;
     aspect-ratio: 1/1;
-    width: 30%;
-    max-height: 250px;
+    /* width: 30%; */
     display: flex;
     justify-content: center;
     align-items: center;
