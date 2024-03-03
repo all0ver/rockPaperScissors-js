@@ -22,36 +22,6 @@ function round(playerSelection, computerSelection) {
     }
 }
 
-// function game() {
-//     let playerScore = 0;
-//     let computerScore = 0;
-//     let result = 0;
-//     while (playerScore != 3 || computerScore != 3) {
-//             switch (result) {
-//                 case 0:
-//                     playerScore += 1;
-//                     computerScore += 1;
-//                     break;
-//                 case 1:
-//                     playerScore += 1;
-//                     break;
-//                 case 2:
-//                     computerScore += 1;
-//                     break;
-//                 default:
-//                     break;
-//             }
-//             document.querySelector('.show-score-p').textContent = playerScore + ":" + computerScore;
-//         }
-//     // if (playerScore > computerScore) {
-//     //     console.log("You have won the game! The score: " + playerScore + ":" + computerScore);
-//     // } else if (playerScore < computerScore) {
-//     //     console.log("You have lost the game! The score: " + playerScore + ":" + computerScore);
-//     // } else {
-//     //     console.log("The game is tied! The score: " + playerScore + ":" + computerScore);
-//     }
-// }
-
 
 let playerScore = 0;
 let computerScore = 0;
