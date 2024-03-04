@@ -12,31 +12,32 @@
 
 body {
     font-family: "Madimi One", sans-serif;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-footer,
-header,
 .content {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 header,
 footer {
-    flex: 1 1 5vh;
-    max-height: 7vh;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    flex-grow: 0;
 }
+
 
 img {
     aspect-ratio: 1/1;
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .content {
@@ -55,18 +56,7 @@ img {
     justify-content: center;
 }
 
-.btn {
-    font-family: "Madimi One", sans-serif;
-    padding: 5rem;
-    border: 3px solid rgb(63, 194, 238);
-    border-radius: 5%;
-    aspect-ratio: 1/1;
-    /* width: 30%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-}
+
 
 .btn:active {
     border: 3px solid rgb(21, 158, 204);
